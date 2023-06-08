@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fade Out Text</title>
+  <style>
+    .fade-out {
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* Set the desired number of lines */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      opacity: 1;
+      transition: opacity 0.5s;
+    }
+
+    .fade-out.fade {
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="text-container" class="fade-out">
+    <!-- Your text goes here -->
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Sed gravida justo vitae neque scelerisque, vitae rhoncus ligula interdum.
+    Aenean nec odio dui. Mauris maximus ultricies varius.
+    Sed et risus mattis, iaculis lorem eget, ultricies turpis.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

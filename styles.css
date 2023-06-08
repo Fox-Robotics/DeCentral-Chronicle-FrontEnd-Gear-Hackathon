@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    height: 75px;
+    padding: 10px;
+    background-color: #114B5F;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#name{
+    white-space: nowrap;
+    align-self: center;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #F5F1ED;
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+}
+#logo{
+    margin-right: 40px;
+}
+#topStory{
+    padding-left: 15px;
+    margin: 30px;
+    height: 220px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+#topNews{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 180px;
+}
+h2{
+    font-size: 28px;
+}
+h1{
+    font-size: 38px;
+    margin-top:10px;
+}
+.title{
+    font-family: 'Playfair Display', serif;
+}
+#topStoryTitle{
+    width: 30%;
+    height: 180px;
+    flex-shrink: 0;
+}
+#topStoryHeader{
+    margin-bottom: 0px;
+    padding-top: 10px;
+    white-space: nowrap;
+}
+#topDescription{
+    margin-left: 20px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+.fade-out {
+    font-family: 'Playfair Display', serif;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.fade-out.fade {
+    opacity: 0;
+}
+#nowrap{
+    white-space: nowrap;
+}
+#topContent{
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.content{
+    font-family: 'Martel', serif;
+    font-size: small;
+    color: #444444;
+}
+#recent{
+    margin: 30px;
+}
+.scrollable {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.scrollable > div {
+    display: inline-block;
+    width: 300px; /* Adjust the width of each item as needed */
+    height: 200px; /* Adjust the height of each item as needed */
+    margin-right: 10px; /* Adjust the spacing between items as needed */
+    background-color: #f2f2f2;
+}
+#stories{
+    background-color: aliceblue;
+    height: 200px;
+}
+.story{
+    width: 200px;
+}
