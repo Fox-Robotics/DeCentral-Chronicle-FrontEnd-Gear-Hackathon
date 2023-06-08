@@ -1,0 +1,22 @@
+  #root {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+  }
+
+  main {
+    flex: 1;
+    margin: 0;
+    padding: 30px 0 60p x;
+    position: relative; 
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  body {
+    background: black;
+  }
