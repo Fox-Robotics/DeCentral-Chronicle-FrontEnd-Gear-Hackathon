@@ -11,6 +11,7 @@ html, body {
     justify-content: space-between;
 }
 #name{
+    overflow: hidden;
     white-space: nowrap;
     align-self: center;
     margin-right: 10px;
